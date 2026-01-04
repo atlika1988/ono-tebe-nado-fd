@@ -1,5 +1,5 @@
 .header {
-    padding: 92px 50px 96px;
+    padding: 91px 50px 96px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -7,7 +7,7 @@
 
 .header-menu-list {
     display: flex;
-    gap: 32px;
+    gap: 33px;
     list-style: circle;
     font-weight: normal;
     font-size: 18px;
@@ -30,7 +30,15 @@
 .header-logo {
     display: block;
     width: 148px;
+    height: 105px;
     justify-self: center;
+    align-items: start;
+}
+
+.header-logo-image {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
  
 .header-address {
@@ -40,9 +48,14 @@
     flex-direction: column;
     align-items: flex-start;
     font-weight: normal;
+    font-style: normal;
     font-size: 18px;
     line-height: 24px;
     color: #000000;
+}
+
+.header-address-link {
+    text-decoration: none;
 }
 
 .cover {
@@ -54,7 +67,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 165px 50px 50px;
+    padding: 165px 50px 48px;
 }
 
 .overlay {
@@ -72,8 +85,8 @@
     color: #fff;
     font-size: 100px;
     font-weight: bold;
-    line-height: 120%;
-    letter-spacing: 25px;
+    line-height: 115%;
+    letter-spacing: 30px;
     text-align: left;
     text-transform: uppercase;
 }
@@ -84,10 +97,16 @@
 
 .text-center {
   text-align: center;
+  padding-top: 20px;
 }
 
 .text-right {
   text-align: right;
+  padding-top: 20px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
 }
 
 .cover-description {
@@ -127,6 +146,7 @@
     font-size: 40px;
     text-transform: uppercase;
     color: #000000;
+    padding-left: 40px;
 }
 
 .lots-card-list {
@@ -151,7 +171,7 @@
 .lots-card {
     position: relative;
     height: 100%;
-    padding: 51px 40px 48px;
+    padding: 49px 40px 48px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -196,11 +216,11 @@
 
 .lots-more {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: 40px;
     color: #000000;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 20px;
     letter-spacing: 0%;
     text-align: left;
 }
@@ -209,7 +229,8 @@
     display: grid;
     grid-template-columns: 334px 1fr;
     gap: 25px;
-    margin-bottom: 180px;
+    margin-bottom: 151px;
+    padding: 33px 24px;
 }
 
 .about-logo {
@@ -261,6 +282,7 @@
     font-size: 18px;
     line-height: 24.3px;
     text-align: left;
+    font-style: normal;
 }
 
 .footer-address-link {
@@ -287,7 +309,7 @@
     list-style: none;
     display: flex;
     justify-self: end;
-    gap: 48px;
+    gap: 51px;
 }
 
 .footer-social-item {
